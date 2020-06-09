@@ -1,26 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './bioData.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App({inprogress,completed}) {
+  return <div className = "biodata" > <br/> <br/> <strong> <center> <h1> CERTIFICATION </h1> </center>  </strong> 
+  <div> <strong> <center> Inprogress : {inprogress} <br/>
+        Completed  : {completed}  </center> </strong>  </div>  </div>
+  
 }
 
 export default App;

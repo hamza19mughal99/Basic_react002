@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import BioData from './bioData';
+import MediaCard from './MediaCard';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<div> <BioData
+   Name = "Hamza Ahmed Mughal"
+   age = {21} 
+ qualification = "undergraduate Software Engineer " /> 
+
+     <App 
+      inprogress = "Web and Mobile Hybrid Application and  Full Stack Web Application "
+      completed = "Project Management and Python Programming  "              
+         />
+
+
+     <MediaCard   
+       title = "Media Card is title "
+       body = " This is paragraph of mediaCard " />
+
+
+
+  </div>, 
   document.getElementById('root')
 );
 

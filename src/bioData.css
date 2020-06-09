@@ -1,0 +1,10 @@
+.biodata{
+    background-color: #f2f2f2;
+    color: blue;
+    padding-bottom: 20px !important;
+}
+
+.media{
+    background-image: url(images/hamza2.jpg);
+    width: 100% ;
+}
